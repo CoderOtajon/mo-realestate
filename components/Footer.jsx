@@ -7,7 +7,6 @@ const Footer = () => {
       color="gray.600"
       borderTop="1px"
       borderColor="gray.100"
-      marginTop="100vh"
     >
       2022 Realtor, Inc.
     </Box>
