@@ -2,6 +2,7 @@ import { Box } from "@chakra-ui/react"
 const Footer = () => {
   return (
     <Box
+      className="footer"
       textAlign="center"
       p="5"
       color="gray.600"

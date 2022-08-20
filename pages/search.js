@@ -14,7 +14,7 @@ const Search = ({ properties }) => {
   const router = useRouter()
 
   return (
-    <Box>
+    <Box paddingBottom="4rem">
       <Flex
         cursor="pointer"
         bg="gray.100"
@@ -40,12 +40,7 @@ const Search = ({ properties }) => {
         ))}
       </Flex>
       {properties?.length === 0 && (
-        <Flex
-          justify="center"
-          align="center"
-          marginTop="20rem"
-          flexDir="column"
-        >
+        <Flex justify="center" mt="4em" align="center" flexDir="column">
           <Image src={noResult} alt="no result" />
           <Text fontSize="2xl" marginTop="3">
             No Results Found

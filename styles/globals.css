@@ -24,3 +24,12 @@ a {
     background: black;
   }
 }
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.container {
+  min-height: 100vh;
+}
