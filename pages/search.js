@@ -55,6 +55,7 @@ const search = ({ properties }) => {
     </Box>
   )
 }
+export default search
 
 export async function getServerSideProps({ query }) {
   const purpose = query.purpose || "for-rent"
@@ -78,5 +79,3 @@ export async function getServerSideProps({ query }) {
     },
   }
 }
-
-export default search
