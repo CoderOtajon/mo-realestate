@@ -16,7 +16,7 @@ const Banner = ({
   imageUrl,
 }) => (
   <Flex flexWrap="wrap" justifyContent={"center"} alignItems={"center"} m="10">
-    <Image src={imageUrl} alt='banner-house' width={500} height={300} />
+    <Image src={imageUrl} alt="banner-house" width={500} height={300} />
     <Box p="5">
       <Text color="gray.500" fontSize="sm" fontWeight="medium">
         {purpose}
@@ -43,7 +43,6 @@ const Banner = ({
 export default function Home({ propertiesForSale, propertiesForRent }) {
   return (
     <Box>
-      <h1>HI</h1>
       <Banner
         purpose={`RENT A HOME`}
         title1="Rental Homes for"
